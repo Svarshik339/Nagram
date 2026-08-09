@@ -3,7 +3,7 @@
 #include "read_cert.h"
 #include "SHA1.h"
 
-static const char *SIGN = "3A0F57FE06485D0B90D0ACD990E3A30328E3988D";
+static const char *SIGN = "4B8BEBF7F6ABF495D4107CE664C2DE0D42283397";
 
 extern "C" {
 int verifySign(JNIEnv *env) {
